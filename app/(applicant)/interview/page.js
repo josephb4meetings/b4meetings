@@ -1,4 +1,3 @@
-'use client'
 import React from 'react'
 import dynamic from 'next/dynamic';
 import Header from '@/app/components/Header';
@@ -6,9 +5,7 @@ import Navigation from '@/app/components/Navigation';
 import InterviewQuestion from '@/app/components/InterviewQuestion';
 import Sidebar from '@/app/components/Sidebar';
 
-const VideoRecorder = dynamic(() => import('@/app/components/VideoRecorder'), { ssr: false });
-
-const Interview = () => {
+export default function Interview () {
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -26,5 +23,3 @@ const Interview = () => {
     </div>
   )
 }
-
-export default Interview
