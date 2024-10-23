@@ -159,7 +159,7 @@ const VideoRecorder = () => {
             {/* Live webcam feed */}
             <video
               ref={videoRef}
-              className="w-96 h-64 bg-black rounded-[30px]" // Added border radius here
+              className="w-96 h-64 bg-black rounded-[30px] filter blur-sm object-cover" // Added border radius here
               autoPlay
               muted
             />
