@@ -15,7 +15,7 @@ export default function MainContent() {
       />
       </div>
       <div className="w-1/2 space-y-6">
-        <h1 className="text-5xl font-bold leading-tight">
+        <h1 className="text-5xl font-bold leading-tight text-black">
           The <span className="bg-[#b3f5ff] px-2">cost-effective</span><br />
           way to screen<br />
           candidates at scale

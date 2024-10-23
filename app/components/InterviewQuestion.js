@@ -4,13 +4,13 @@ import VideoRecorder from './VideoRecorder'
 export default function InterviewQuestion() {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-2">Interview</h2>
-      <p className="text-gray-600 mb-6">Questions are automatically saved so you can relax and only focus on what is important.</p>
+      <h2 className="text-2xl font-bold mb-2 text-black">Interview</h2>
+      <p className="text-gray-600 mb-6 ">Questions are automatically saved so you can relax and only focus on what is important.</p>
     <div className="bg-gray-50 p-6 rounded-lg shadow-lg">
       
       <div className="flex space-x-6">
         <div className="w-1/2">
-            <h2 className="text-2xl mb-4">Question</h2>
+            <h2 className="text-2xl mb-4 text-black">Question</h2>
             <div className="relative bg-yellow-200 rounded-lg overflow-hidden mb-4">
             <Image src="https://img.freepik.com/premium-photo/woman-waving-hello_1320745-28688.jpg" width={400} height={400} alt="Video preview" className="w-full h-48 object-cover" />
             <button className="absolute inset-0 flex items-center justify-center">
@@ -19,7 +19,7 @@ export default function InterviewQuestion() {
               </div>
             </button>
           </div>
-          <h3 className="font-semibold mb-2">1. What is your experience in this area?</h3>
+          <h3 className="font-semibold mb-2 text-black">1. What is your experience in this area?</h3>
         </div>
         <div className="grid grid-cols-[auto_1.5px_auto]">
             <div className="h-[368px] border-x-[1.5px] border-gray-300 mx-auto"></div>

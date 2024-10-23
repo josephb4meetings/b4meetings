@@ -7,7 +7,7 @@ export default function Header() {
     <Link href="/">
       <div className="flex items-center space-x-5">
         <div className="w-8 h-8 bg-black rounded-sm"></div>
-        <span className="font-bold text-lg">b4meetings</span>
+        <span className="font-bold text-lg text-black">b4meetings</span>
       </div>
     </Link>
       <nav>
